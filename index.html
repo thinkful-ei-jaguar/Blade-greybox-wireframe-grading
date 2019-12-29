@@ -11,7 +11,7 @@
 <body>
   <nav role = "navigation">
     
-     <ul>
+     <ul class = 'big-nav'>
       <div class = 'logo'>Navbar</div>
       <li class = 'nav-items'>
         Item
@@ -26,12 +26,33 @@
         Item
       </li>
     </ul>
+
+    <div class = 'small-nav-container'>
+      <ul class = 'small-nav'>
+        <!--<div class = 'logo'>Blade Boles</div>-->
+        <li class = 'dropdown-nav-items'>
+          <a class = 'small-nav-items dropdown-visible' href="#banner">Home</a>
+        </li>
+        <li class = 'dropdown-nav-items'>
+          <a class = 'small-nav-items dropdown-visible' href="#about-me">Bio</a>
+        </li>
+        <li class = 'dropdown-nav-items'>
+          <a class = 'small-nav-items dropdown-visible' href="#projects">Projects</a>
+        </li>
+        <li class = 'dropdown-nav-items'>
+          <a class = 'small-nav-items dropdown-visible' href="#contact-me">Contact</a>
+        </li>
+      </ul>
+      <i class = "fa fa-bars" id = "hamburger"></i>
+    </div>
+
+
   
     <!--<i class = "fa fa-bars"></i>-->
   </nav>
   <main role = "main">
     <header role = "banner">
-      <h1>Header1/Hero/Banner</h1> 
+      <h1>Header1/Hero</h1> 
       <h2>Secondary Text</h2> 
       
     </header>
